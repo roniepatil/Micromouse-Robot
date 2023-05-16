@@ -1,0 +1,98 @@
+\hypertarget{classrwa2_1_1_node}{}\section{rwa2\+:\+:Node Class Reference}
+\label{classrwa2_1_1_node}\index{rwa2\+::\+Node@{rwa2\+::\+Node}}
+
+
+Class to represent a node (cell) in a maze.  
+
+
+
+
+{\ttfamily \#include $<$node.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classrwa2_1_1_node_a9e887221d02616392f572dd4018b71ed}{set\+\_\+wall} (int \hyperlink{util_8h_a99f26e6ee9fcd62f75203b5402df8098}{direction}, bool \hyperlink{classrwa2_1_1_node_acd6ab64157b7b60bea708ddb52ddb1a8}{is\+\_\+wall})
+\begin{DoxyCompactList}\small\item\em Set the wall of a cell. \end{DoxyCompactList}\item 
+bool \hyperlink{classrwa2_1_1_node_acd6ab64157b7b60bea708ddb52ddb1a8}{is\+\_\+wall} (int \hyperlink{util_8h_a99f26e6ee9fcd62f75203b5402df8098}{direction}) const
+\begin{DoxyCompactList}\small\item\em Return whether or not there is a wall in a cell. \end{DoxyCompactList}\item 
+int \hyperlink{classrwa2_1_1_node_a6057b0b97f6b815a57aad534cd021674}{compute\+\_\+number\+\_\+of\+\_\+walls} () const
+\begin{DoxyCompactList}\small\item\em Compute the number of walls surrounding a node. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to represent a node (cell) in a maze. 
+
+A node is just a space delimited by 4 walls 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classrwa2_1_1_node_a6057b0b97f6b815a57aad534cd021674}\label{classrwa2_1_1_node_a6057b0b97f6b815a57aad534cd021674}} 
+\index{rwa2\+::\+Node@{rwa2\+::\+Node}!compute\+\_\+number\+\_\+of\+\_\+walls@{compute\+\_\+number\+\_\+of\+\_\+walls}}
+\index{compute\+\_\+number\+\_\+of\+\_\+walls@{compute\+\_\+number\+\_\+of\+\_\+walls}!rwa2\+::\+Node@{rwa2\+::\+Node}}
+\subsubsection{\texorpdfstring{compute\+\_\+number\+\_\+of\+\_\+walls()}{compute\_number\_of\_walls()}}
+{\footnotesize\ttfamily int rwa2\+::\+Node\+::compute\+\_\+number\+\_\+of\+\_\+walls (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Compute the number of walls surrounding a node. 
+
+\begin{DoxyReturn}{Returns}
+int Number of walls surrounding a node 
+\end{DoxyReturn}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{classrwa2_1_1_node_a6057b0b97f6b815a57aad534cd021674_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classrwa2_1_1_node_acd6ab64157b7b60bea708ddb52ddb1a8}\label{classrwa2_1_1_node_acd6ab64157b7b60bea708ddb52ddb1a8}} 
+\index{rwa2\+::\+Node@{rwa2\+::\+Node}!is\+\_\+wall@{is\+\_\+wall}}
+\index{is\+\_\+wall@{is\+\_\+wall}!rwa2\+::\+Node@{rwa2\+::\+Node}}
+\subsubsection{\texorpdfstring{is\+\_\+wall()}{is\_wall()}}
+{\footnotesize\ttfamily bool rwa2\+::\+Node\+::is\+\_\+wall (\begin{DoxyParamCaption}\item[{int}]{direction }\end{DoxyParamCaption}) const}
+
+
+
+Return whether or not there is a wall in a cell. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & Direction to set for wall (N\+O\+R\+TH, E\+A\+ST, S\+O\+U\+TH, or W\+E\+ST) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true There is a wall in the given direction in the cell 
+
+false There is no wall in the given direction in the cell 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrwa2_1_1_node_a9e887221d02616392f572dd4018b71ed}\label{classrwa2_1_1_node_a9e887221d02616392f572dd4018b71ed}} 
+\index{rwa2\+::\+Node@{rwa2\+::\+Node}!set\+\_\+wall@{set\+\_\+wall}}
+\index{set\+\_\+wall@{set\+\_\+wall}!rwa2\+::\+Node@{rwa2\+::\+Node}}
+\subsubsection{\texorpdfstring{set\+\_\+wall()}{set\_wall()}}
+{\footnotesize\ttfamily void rwa2\+::\+Node\+::set\+\_\+wall (\begin{DoxyParamCaption}\item[{int}]{direction,  }\item[{bool}]{is\+\_\+wall }\end{DoxyParamCaption})}
+
+
+
+Set the wall of a cell. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & N\+O\+R\+TH, E\+A\+ST, S\+O\+U\+TH, or W\+E\+ST \\
+\hline
+{\em is\+\_\+wall} & true if there is a wall, otherwise false \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{classrwa2_1_1_node_a9e887221d02616392f572dd4018b71ed_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/node/\hyperlink{node_8h}{node.\+h}\item 
+src/node.\+cpp\end{DoxyCompactItemize}

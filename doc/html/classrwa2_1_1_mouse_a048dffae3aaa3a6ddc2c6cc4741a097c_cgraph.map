@@ -1,0 +1,6 @@
+<map id="rwa2::Mouse::Mouse" name="rwa2::Mouse::Mouse">
+<area shape="rect" id="node2" href="$classrwa2_1_1_mouse.html#a789be287a432bafc903c97396a014d7d" title="Implement DFS to compute a path between 2 nodes in a maze. " alt="" coords="199,5,382,32"/>
+<area shape="rect" id="node3" href="$classrwa2_1_1_mouse.html#afc6e0d56e3a777c05efa3929eb256e0a" title="Make the mouse move forward. " alt="" coords="197,56,384,83"/>
+<area shape="rect" id="node4" href="$classrwa2_1_1_mouse.html#a5748e94e740432c334d15364fb476919" title="Make the mouse rotate 90 deg CCW. " alt="" coords="215,107,367,133"/>
+<area shape="rect" id="node5" href="$classrwa2_1_1_mouse.html#ac929127d86fc4a41d1e216968b1dae20" title="Make the mouse rotate 90 deg CW. " alt="" coords="211,157,370,184"/>
+</map>
